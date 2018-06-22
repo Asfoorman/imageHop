@@ -19,11 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zooo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Z3w-91-QOl">
-                                <rect key="frame" x="59" y="0.0" width="240" height="667"/>
+                                <rect key="frame" x="16" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhT-yF-o8e">
-                                <rect key="frame" x="146" y="598" width="100" height="48"/>
+                                <rect key="frame" x="153" y="619" width="100" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
                                 <state key="normal" title="JUMP!"/>
@@ -32,7 +32,27 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frame-1" translatesAutoresizingMaskIntoConstraints="NO" id="BnA-PA-Lnr">
-                                <rect key="frame" x="0.0" y="456" width="100" height="128"/>
+                                <rect key="frame" x="16" y="456" width="100" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frame-1" translatesAutoresizingMaskIntoConstraints="NO" id="Jfq-cY-EMn">
+                                <rect key="frame" x="259" y="456" width="100" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass.png" translatesAutoresizingMaskIntoConstraints="NO" id="LBm-dx-uRi">
+                                <rect key="frame" x="87" y="420" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frame-1" translatesAutoresizingMaskIntoConstraints="NO" id="WAK-UY-Zml">
+                                <rect key="frame" x="132" y="475" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frame-1" translatesAutoresizingMaskIntoConstraints="NO" id="G2H-sS-BLJ">
+                                <rect key="frame" x="220" y="203" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frame-1" translatesAutoresizingMaskIntoConstraints="NO" id="hpQ-sQ-6N8">
+                                <rect key="frame" x="70" y="203" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -41,6 +61,10 @@
                     </view>
                     <connections>
                         <outlet property="bunny1" destination="BnA-PA-Lnr" id="IMn-Bc-hIj"/>
+                        <outlet property="bunny2" destination="Jfq-cY-EMn" id="jng-8A-4C7"/>
+                        <outlet property="bunny3" destination="WAK-UY-Zml" id="JCM-fg-cJO"/>
+                        <outlet property="bunny4" destination="hpQ-sQ-6N8" id="9Jn-Yg-cAY"/>
+                        <outlet property="bunny5" destination="G2H-sS-BLJ" id="lWZ-fn-iYg"/>
                         <outlet property="jumpBttn" destination="uhT-yF-o8e" id="fH7-ot-kSg"/>
                     </connections>
                 </viewController>
@@ -51,6 +75,7 @@
     </scenes>
     <resources>
         <image name="frame-1" width="320" height="320"/>
+        <image name="grass.png" width="1852" height="498"/>
         <image name="zooo.jpg" width="3024" height="4032"/>
     </resources>
 </document>
